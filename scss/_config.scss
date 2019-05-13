@@ -55,7 +55,7 @@ $background-opacity: 0.5;
 }
 
 @mixin mediaLg {
-    @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @media screen and (max-width: 1170px) {
         @content;
     }
 }
@@ -64,3 +64,5 @@ $background-opacity: 0.5;
         @content;
     }
 }
+
+
